@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6108271199F7F9000262216 /* CloudyDay.png in Resources */ = {isa = PBXBuildFile; fileRef = D6108270199F7F9000262216 /* CloudyDay.png */; };
+		D6108277199F834F00262216 /* cloudDay_s.png in Resources */ = {isa = PBXBuildFile; fileRef = D6108272199F834F00262216 /* cloudDay_s.png */; };
+		D6108278199F834F00262216 /* cloudRain_s.png in Resources */ = {isa = PBXBuildFile; fileRef = D6108273199F834F00262216 /* cloudRain_s.png */; };
+		D6108279199F834F00262216 /* rain_s.png in Resources */ = {isa = PBXBuildFile; fileRef = D6108274199F834F00262216 /* rain_s.png */; };
+		D610827A199F834F00262216 /* sun_s.png in Resources */ = {isa = PBXBuildFile; fileRef = D6108275199F834F00262216 /* sun_s.png */; };
+		D610827B199F834F00262216 /* wind_s.png in Resources */ = {isa = PBXBuildFile; fileRef = D6108276199F834F00262216 /* wind_s.png */; };
 		D62C6463199F224A00F11517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C6462199F224A00F11517 /* AppDelegate.swift */; };
 		D62C6465199F224A00F11517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C6464199F224A00F11517 /* ViewController.swift */; };
 		D62C6468199F224A00F11517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62C6466199F224A00F11517 /* Main.storyboard */; };
@@ -28,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6108270199F7F9000262216 /* CloudyDay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudyDay.png; sourceTree = "<group>"; };
+		D6108272199F834F00262216 /* cloudDay_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudDay_s.png; sourceTree = "<group>"; };
+		D6108273199F834F00262216 /* cloudRain_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudRain_s.png; sourceTree = "<group>"; };
+		D6108274199F834F00262216 /* rain_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain_s.png; sourceTree = "<group>"; };
+		D6108275199F834F00262216 /* sun_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_s.png; sourceTree = "<group>"; };
+		D6108276199F834F00262216 /* wind_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind_s.png; sourceTree = "<group>"; };
 		D62C645D199F224900F11517 /* weatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62C6461199F224A00F11517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D62C6462199F224A00F11517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +93,12 @@
 		D62C645F199F224A00F11517 /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				D6108272199F834F00262216 /* cloudDay_s.png */,
+				D6108273199F834F00262216 /* cloudRain_s.png */,
+				D6108274199F834F00262216 /* rain_s.png */,
+				D6108275199F834F00262216 /* sun_s.png */,
+				D6108276199F834F00262216 /* wind_s.png */,
+				D6108270199F7F9000262216 /* CloudyDay.png */,
 				D62C6485199F38BA00F11517 /* CloudyDay_bg320px.png */,
 				D62C6481199F339700F11517 /* CloudyDay_bg.png */,
 				D62C647F199F311100F11517 /* sunRain.png */,
@@ -199,8 +217,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62C6468199F224A00F11517 /* Main.storyboard in Resources */,
+				D610827B199F834F00262216 /* wind_s.png in Resources */,
 				D62C6482199F339700F11517 /* CloudyDay_bg.png in Resources */,
+				D6108279199F834F00262216 /* rain_s.png in Resources */,
+				D6108271199F7F9000262216 /* CloudyDay.png in Resources */,
+				D610827A199F834F00262216 /* sun_s.png in Resources */,
 				D62C6480199F311100F11517 /* sunRain.png in Resources */,
+				D6108277199F834F00262216 /* cloudDay_s.png in Resources */,
+				D6108278199F834F00262216 /* cloudRain_s.png in Resources */,
 				D62C6486199F38BA00F11517 /* CloudyDay_bg320px.png in Resources */,
 				D62C646A199F224A00F11517 /* Images.xcassets in Resources */,
 			);
@@ -409,6 +433,7 @@
 				D62C647B199F224A00F11517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D62C647C199F224A00F11517 /* Build configuration list for PBXNativeTarget "weatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				D62C647E199F224A00F11517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
