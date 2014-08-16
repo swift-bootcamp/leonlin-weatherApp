@@ -12,6 +12,8 @@
 		D62C6468199F224A00F11517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62C6466199F224A00F11517 /* Main.storyboard */; };
 		D62C646A199F224A00F11517 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62C6469199F224A00F11517 /* Images.xcassets */; };
 		D62C6476199F224A00F11517 /* weatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C6475199F224A00F11517 /* weatherAppTests.swift */; };
+		D62C6480199F311100F11517 /* sunRain.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C647F199F311100F11517 /* sunRain.png */; };
+		D62C6482199F339700F11517 /* CloudyDay_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C6481199F339700F11517 /* CloudyDay_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		D62C646F199F224A00F11517 /* weatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62C6474199F224A00F11517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D62C6475199F224A00F11517 /* weatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherAppTests.swift; sourceTree = "<group>"; };
+		D62C647F199F311100F11517 /* sunRain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunRain.png; sourceTree = "<group>"; };
+		D62C6481199F339700F11517 /* CloudyDay_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudyDay_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		D62C645F199F224A00F11517 /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				D62C6481199F339700F11517 /* CloudyDay_bg.png */,
+				D62C647F199F311100F11517 /* sunRain.png */,
 				D62C6462199F224A00F11517 /* AppDelegate.swift */,
 				D62C6464199F224A00F11517 /* ViewController.swift */,
 				D62C6466199F224A00F11517 /* Main.storyboard */,
@@ -190,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62C6468199F224A00F11517 /* Main.storyboard in Resources */,
+				D62C6482199F339700F11517 /* CloudyDay_bg.png in Resources */,
+				D62C6480199F311100F11517 /* sunRain.png in Resources */,
 				D62C646A199F224A00F11517 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

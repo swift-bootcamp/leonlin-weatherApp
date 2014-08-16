@@ -14,12 +14,17 @@ class ViewController: UIViewController {
     
     //IBOutlet let storyBoard view Control can see the string
     @IBOutlet var city: UILabel!
+    @IBOutlet var icon: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         self.city.text = "Taipei"
+        
+        //background
+        let background = UIImage(named: "CloudyDay_bg.png")
+        self.view.backgroundColor = UIColor(patternImage: background)
     }
 
     override func didReceiveMemoryWarning() {
