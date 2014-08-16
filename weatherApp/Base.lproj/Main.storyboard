@@ -23,14 +23,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunRain.png" translatesAutoresizingMaskIntoConstraints="NO" id="vEn-rS-WR2">
-                                <rect key="frame" x="93" y="159" width="120" height="120"/>
+                                <rect key="frame" x="93" y="195" width="120" height="120"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2s-70-mV5">
+                                <rect key="frame" x="103" y="116" width="53" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="city" destination="FOz-yG-HXs" id="YoK-dM-LEx"/>
                         <outlet property="icon" destination="vEn-rS-WR2" id="pRt-uo-XNy"/>
+                        <outlet property="temperature" destination="K2s-70-mV5" id="XKI-4w-HT0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
