@@ -26,6 +26,10 @@
 		D62C6480199F311100F11517 /* sunRain.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C647F199F311100F11517 /* sunRain.png */; };
 		D62C6482199F339700F11517 /* CloudyDay_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C6481199F339700F11517 /* CloudyDay_bg.png */; };
 		D62C6486199F38BA00F11517 /* CloudyDay_bg320px.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C6485199F38BA00F11517 /* CloudyDay_bg320px.png */; };
+		D659882819A059BF00EF3DB1 /* RAIN_bg320px.png in Resources */ = {isa = PBXBuildFile; fileRef = D659882619A059BF00EF3DB1 /* RAIN_bg320px.png */; };
+		D659882919A059BF00EF3DB1 /* sun_bg320px.png in Resources */ = {isa = PBXBuildFile; fileRef = D659882719A059BF00EF3DB1 /* sun_bg320px.png */; };
+		D659882B19A059CD00EF3DB1 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = D659882A19A059CD00EF3DB1 /* sun.png */; };
+		D659882D19A059DC00EF3DB1 /* RAIN.png in Resources */ = {isa = PBXBuildFile; fileRef = D659882C19A059DC00EF3DB1 /* RAIN.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		D62C647F199F311100F11517 /* sunRain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunRain.png; sourceTree = "<group>"; };
 		D62C6481199F339700F11517 /* CloudyDay_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudyDay_bg.png; sourceTree = "<group>"; };
 		D62C6485199F38BA00F11517 /* CloudyDay_bg320px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudyDay_bg320px.png; sourceTree = "<group>"; };
+		D659882619A059BF00EF3DB1 /* RAIN_bg320px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RAIN_bg320px.png; sourceTree = "<group>"; };
+		D659882719A059BF00EF3DB1 /* sun_bg320px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_bg320px.png; sourceTree = "<group>"; };
+		D659882A19A059CD00EF3DB1 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		D659882C19A059DC00EF3DB1 /* RAIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RAIN.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +119,13 @@
 				D6108272199F834F00262216 /* cloudDay_s.png */,
 				D6108273199F834F00262216 /* cloudRain_s.png */,
 				D6108274199F834F00262216 /* rain_s.png */,
+				D659882A19A059CD00EF3DB1 /* sun.png */,
 				D6108275199F834F00262216 /* sun_s.png */,
+				D659882C19A059DC00EF3DB1 /* RAIN.png */,
 				D6108276199F834F00262216 /* wind_s.png */,
 				D6108270199F7F9000262216 /* CloudyDay.png */,
+				D659882619A059BF00EF3DB1 /* RAIN_bg320px.png */,
+				D659882719A059BF00EF3DB1 /* sun_bg320px.png */,
 				D62C6485199F38BA00F11517 /* CloudyDay_bg320px.png */,
 				D62C6481199F339700F11517 /* CloudyDay_bg.png */,
 				D62C647F199F311100F11517 /* sunRain.png */,
@@ -238,13 +250,17 @@
 				D6108279199F834F00262216 /* rain_s.png in Resources */,
 				D6108271199F7F9000262216 /* CloudyDay.png in Resources */,
 				D609BC7D199F91E20087BECD /* night.png in Resources */,
+				D659882919A059BF00EF3DB1 /* sun_bg320px.png in Resources */,
 				D609BC7C199F91E20087BECD /* day.png in Resources */,
+				D659882B19A059CD00EF3DB1 /* sun.png in Resources */,
 				D610827A199F834F00262216 /* sun_s.png in Resources */,
 				D62C6480199F311100F11517 /* sunRain.png in Resources */,
 				D6108277199F834F00262216 /* cloudDay_s.png in Resources */,
+				D659882819A059BF00EF3DB1 /* RAIN_bg320px.png in Resources */,
 				D609BC79199F917B0087BECD /* winds.png in Resources */,
 				D609BC77199F917B0087BECD /* Humidity.png in Resources */,
 				D6108278199F834F00262216 /* cloudRain_s.png in Resources */,
+				D659882D19A059DC00EF3DB1 /* RAIN.png in Resources */,
 				D62C6486199F38BA00F11517 /* CloudyDay_bg320px.png in Resources */,
 				D62C646A199F224A00F11517 /* Images.xcassets in Resources */,
 			);

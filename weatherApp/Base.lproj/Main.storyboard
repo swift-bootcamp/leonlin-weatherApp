@@ -22,9 +22,27 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2s-70-mV5">
-                                <rect key="frame" x="98" y="231" width="73" height="41"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2s-70-mV5">
+                                <rect key="frame" x="78" y="231" width="73" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="01" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SI-y9-uMn">
+                                <rect key="frame" x="63" y="270" width="40" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="02" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nt1-FT-DXG">
+                                <rect key="frame" x="148" y="270" width="32" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="03" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIK-c9-tb4">
+                                <rect key="frame" x="229" y="270" width="74" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -109,8 +127,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="night.png" translatesAutoresizingMaskIntoConstraints="NO" id="GBx-iM-gRN">
                                 <rect key="frame" x="234" y="231" width="38" height="38"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CloudyDay.png" highlightedImage="day.png" translatesAutoresizingMaskIntoConstraints="NO" id="vC7-a6-LAG">
-                                <rect key="frame" x="-16" y="81" width="338" height="338"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" highlightedImage="day.png" translatesAutoresizingMaskIntoConstraints="NO" id="vC7-a6-LAG">
+                                <rect key="frame" x="-16" y="80" width="338" height="338"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.76590098505434789" green="0.76590098505434789" blue="0.76590098505434789" alpha="1" colorSpace="calibratedRGB"/>
@@ -122,8 +140,10 @@
                     </view>
                     <connections>
                         <outlet property="city" destination="FOz-yG-HXs" id="YoK-dM-LEx"/>
-                        <outlet property="icon" destination="vEn-rS-WR2" id="pRt-uo-XNy"/>
-                        <outlet property="temperature" destination="K2s-70-mV5" id="XKI-4w-HT0"/>
+                        <outlet property="humidity" destination="0SI-y9-uMn" id="hSw-F2-hkI"/>
+                        <outlet property="icon" destination="vC7-a6-LAG" id="YCv-jf-JwO"/>
+                        <outlet property="temperature" destination="K2s-70-mV5" id="z8w-QJ-eeH"/>
+                        <outlet property="windSpeed" destination="TIK-c9-tb4" id="qtW-8Q-xrV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
