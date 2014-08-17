@@ -109,7 +109,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="night.png" translatesAutoresizingMaskIntoConstraints="NO" id="GBx-iM-gRN">
                                 <rect key="frame" x="234" y="231" width="38" height="38"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CloudyDay.png" translatesAutoresizingMaskIntoConstraints="NO" id="vC7-a6-LAG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CloudyDay.png" highlightedImage="day.png" translatesAutoresizingMaskIntoConstraints="NO" id="vC7-a6-LAG">
                                 <rect key="frame" x="-16" y="81" width="338" height="338"/>
                             </imageView>
                         </subviews>

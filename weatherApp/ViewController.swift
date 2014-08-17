@@ -29,7 +29,13 @@ class ViewController: UIViewController, NSURLConnectionDelegate {
         let background = UIImage(named: "CloudyDay_bg320px.png")
         self.view.backgroundColor = UIColor(patternImage: background)
         
-        startConnection()
+        //touch the screen for download
+        let singleFingerTap = UITapGestureRecognizer(target: self, action: "handleSingleTap:")
+        self.view.addGestureRecognizer(singleFingerTap)
+        
+        func handleSingleTap (recognizer: UITapGestureRecognizer) {
+            startConnection()
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,7 +57,9 @@ class ViewController: UIViewController, NSURLConnectionDelegate {
     func connection(connection: NSURLConnection!, didReceiveData dataReceived: NSData!) {
         println("downloading")
         
-        self.data.appendData(dataReceived)
+        //self.data.appendData(dataReceived)
+        self.data.setData(dataReceived)
+
     }
     
     //Finish Download
